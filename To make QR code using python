@@ -1,0 +1,4 @@
+import qrcode
+img=qrcode.make("https://maps.app.goo.gl/pHrh3xKVYEG5mC9H6")
+img.save("AK_Physio_clinc.jpg")
+print("created")
